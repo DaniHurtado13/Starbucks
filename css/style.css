@@ -97,6 +97,7 @@ section .content .information button {
     border-radius: 15px;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .content .image {
