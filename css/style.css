@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    
+   text-decoration: underline;
+}
+
+
+section .content {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+}
+
+section .content .information {
+    display: flex;
+    display: block;
+    align-content: center;
+}
+
+section .content .information h1 {
+    font-size: 58px;
+    color: #333;
+}
+
+section .content .information span {
+    color: #017143;
+    font-weight: 900;
+}
+
+section .content .information p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+section .content .information button {
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: #017143;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.content .image {
+    width: 390px;
+    height: 550px;
+}
+
+.content .image img {
+    width: 100%;
+    height: 523px;
+    position: relative;
+    top: 60px; 
+}
+
